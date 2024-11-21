@@ -62,7 +62,7 @@ import threading
 
 def result_save():
     gamer_choice = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    compat_gamer = "192.168.1.122"
+    compat_gamer = "192.168.1.135"
     possible_compat = 12345
     gamer_choice.bind((compat_gamer, possible_compat))
     gamer_choice.listen()
