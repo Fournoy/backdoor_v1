@@ -2,7 +2,7 @@
 This a backdoor i made with python modules like socket, subprocess and threading. The backdoor is injected in a code of a little python-game and obfusced.
 
 
-The backdoor work with a tcp server and a tcp client. The tcp server is make with the socket moodule and implemented in the love_test code. With the subprocess module,
+The backdoor work with a tcp server and a tcp client. The tcp server is make with the socket moodule and implemented in the love_test code, made by <a src="https://github.com/Haimagull">haimagull</a>. With the subprocess module,
 the backdoor (tcp server) treat command send by the attacker (tcp client). The server run as like daemon with the threading module, for more discretion.
 
 
