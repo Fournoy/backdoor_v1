@@ -11,7 +11,7 @@ the backdoor (tcp server) treat command send by the attacker (tcp client). The s
 
 |          Code Amélioration                 |                    Network Protocol                        |
 | :---                                       |     :---:     
-| More clear data treat by the client code   | Use a ssh / ftp / telnet, or other secure protocol for communication between the backdoor and the attacker   |                                                            
+| -More clear data treat by the client code-  (DONE) | Use a ssh / ftp / telnet, or other secure protocol for communication between the backdoor and the attacker   |                                                           
 | More efficiency during the process of the cmd send by the server  |  Use a tcp server like now, with encrypted packet          |                                                                                 
 | Make a bakdoor directly in a protocol      script for more discretion and efficiancy   | Make an ftp connection for dowload or upload file in the   target machine    |
 | Make a remote shell                        |                                                            |
