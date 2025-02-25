@@ -19,7 +19,8 @@ cd backdoor_v1
 ### Start the listener
 Run the following command to start the listener on your attacking machine:
 ```bash
-python3 client.py```
+python3 client.py
+```
 
 ### Deploy the backdoor
 Run the backdoor script on the target machine:
