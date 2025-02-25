@@ -6,8 +6,8 @@ This project is a simple backdoor written in Python for educational and testing 
 ## Features
 - Remote command execution
 - Uses `socket` for communication
-- Multi-threaded for better handling of connections
-- Basic obfuscation methods
+- Multi-threaded for better handling of connections (for the backdoor implemented in the game)
+- Basic obfuscation methods (for the backdoor implemented in the game)
 
 ## Installation
 ```bash
