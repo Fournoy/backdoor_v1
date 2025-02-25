@@ -1,5 +1,5 @@
 # backdoor_v1
-This a backdoor i made with python modules like socket, subprocess and threading. The backdoor is injected in a code of a little python-game and obfusced.
+This a backdoor made with python modules like socket, subprocess and threading. The backdoor is injected in a code of a little python-game and "obfusced".
 
 
 The backdoor work with a tcp server and a tcp client. The tcp server is make with the socket moodule and implemented in the love_test code, made by haimagull https://github.com/Haimagull. With the subprocess module,
