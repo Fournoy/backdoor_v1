@@ -42,7 +42,6 @@ Soon, i will update the backdoor to make a better obfuscation. Also, i will perf
 | More clear data treat by the client code | Use a ssh / ftp / telnet, or other secure protocol for communication between the backdoor and the attacker   |                                                           
 | More efficiency during the process of the cmd send by the server  |  Use a tcp server like now, with encrypted packet          |                                                                                 
 | Make a bakdoor directly in a protocol      script for more discretion and efficiancy   | Make an ftp connection for dowload or upload file in the   target machine    |
-| Make a remote shell                        |                                                            |
-| Make a keylogger or other options in the   backdoor     |                                                            |                                                                                             
+|Make a better obfuscation with a complete modification of the code with modules |          |                                                                                            
 
 
