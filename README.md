@@ -1,15 +1,41 @@
-# backdoor_v1
-This a backdoor made with python modules like socket, subprocess and threading. The backdoor is injected in a code of a little python-game and "obfusced".
+# Backdoor v1
+
+## Overview
+This project is a simple backdoor written in Python for educational and testing purposes. It allows a user to remotely execute commands on a target system. The implementation includes networking, process handling, and threading.
+
+## Features
+- Remote command execution
+- Uses `socket` for communication
+- Multi-threaded for better handling of connections
+- Basic obfuscation methods
+
+## Installation
+```bash
+git clone https://github.com/Fournoy/backdoor_v1.git
+cd backdoor_v1
+```
+
+## Usage
+### Start the listener
+Run the following command to start the listener on your attacking machine:
+```bash
+python3 client.py```
+
+### Deploy the backdoor
+Run the backdoor script on the target machine:
+```bash
+python3 backdoor.py
+```
+###Usage in programme
+Soon, i will update the backdoor to make a better obfuscation. Also, i will perform some automated escalation provileges for Linux systems and, after, windows systems.
 
 
-The backdoor work with a tcp server and a tcp client. The tcp server is make with the socket moodule and implemented in the love_test code, made by haimagull https://github.com/Haimagull. With the subprocess module,
-the backdoor (tcp server) treat command send by the attacker (tcp client). The server run as like daemon with the threading module, for more discretion.
 
 
 
 
 
-|          Code Amélioration                 |                    Network Protocol                        |
+|          Code enhancement idea                  |                    Network Protocol                        |
 | :---                                       |     :---:     
 | More clear data treat by the client code | Use a ssh / ftp / telnet, or other secure protocol for communication between the backdoor and the attacker   |                                                           
 | More efficiency during the process of the cmd send by the server  |  Use a tcp server like now, with encrypted packet          |                                                                                 
